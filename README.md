@@ -70,7 +70,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 **学习笔记**
 
 redux核心API
+
 createStore:创建store
+
 store.dispatch:派发action
+
 store.getState:获取store里的数据内容
+
 store.subscribe:订阅store的改变，接收的回调函数会被执行，store.subscribe(()=>this.handleStoreChange());
